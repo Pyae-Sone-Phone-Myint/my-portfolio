@@ -9,7 +9,7 @@ import Blog from "./components/Blog/Blog";
 const App = () => {
   return (
     <>
-      <div className=" h-[300vh] container">
+      <div className=" h-[300vh] ">
         <div className=" h-[122px]">
           <Navbar />
         </div>

@@ -3,7 +3,9 @@ import "@splidejs/react-splide/css";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { portfolio_data } from "../../data/data.js";
 import { BsArrowRightShort } from "react-icons/bs";
+import { AiOutlineClose } from "react-icons/ai";
 import "./portfolio.css";
+import { MdArrowForwardIos } from "react-icons/md";
 
 const Portfolio = () => {
   const [detail, setDetail] = useState("");
@@ -13,11 +15,20 @@ const Portfolio = () => {
     console.log(detail);
   }, [detail]);
 
+  const clickHandler = (item) => {
+    setDetail(item);
+    setShowDetail(true);
+  };
+
   const card = portfolio_data?.map((item, index) => {
     return (
       <>
-        <SplideSlide key={item.id} onClick={() => setDetail(item)} className=" p-4">
-          <div className=" p-7 rounded-2xl card overflow-hidden w-fit mx-auto bg-transparent">
+        <SplideSlide
+          key={item.id}
+          onClick={() => clickHandler(item)}
+          className=" p-4"
+        >
+          <div className=" p-7 rounded-2xl card overflow-hidden w-fit mx-auto">
             <div className=" overflow-hidden rounded-xl">
               <img src={item.image} className=" object-cover" alt="" />
             </div>
@@ -73,9 +84,9 @@ const Portfolio = () => {
               767: {
                 perPage: 2,
               },
-              1024: {
-                perPage: 3,
-              },
+              // 1024: {
+              //   perPage: 3,
+              // },
             },
           }}
         >
@@ -91,7 +102,40 @@ const Portfolio = () => {
         </Splide>
       </div>
       {showDetail && (
-        <div className=" bg-black h-screen w-full absolute top-0 left-0 z-[9999]"></div>
+        <div className=" bg-[#212428] h- w-full overflow-y-scroll fixed top-0 left-0 z-[9999] flex items-center">
+          <div className="model_toggle h-screen">
+            <div className="close-btn" onClick={() => setShowDetail(false)}>
+              <AiOutlineClose />
+            </div>
+            <div className=" flex lg:flex-row flex-col gap-8">
+              <div className=" rounded-xl overflow-hidden lg:w-6/12">
+                <img src={detail.image} alt="" />
+              </div>
+              <div className=" lg:w-5/12 flex flex-col justify-between">
+                <h4 className=" text-[calc(1rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                  Featured - Design
+                </h4>
+                <h1 className=" text-[calc(2.1rem+.1vw)] font-bold text-[rgb(196,207,222)]">
+                  {detail.title}
+                </h1>
+                <p className=" text-[calc(1.25rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                  {detail.para}
+                </p>
+                <p className=" text-[calc(1.25rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                  {detail.para1}
+                </p>
+                <div className=" flex  gap-10">
+                  <a href="#" className=" btn">
+                    like this
+                  </a>
+                  <a href="#" className=" btn ">
+                    view project <span><MdArrowForwardIos size={'.9rem'}/></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </>
   );
