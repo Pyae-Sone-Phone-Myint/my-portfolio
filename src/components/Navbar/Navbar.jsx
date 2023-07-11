@@ -31,7 +31,7 @@ const Navbar = () => {
         const sectionTop = section.offsetTop;
         if (scrollPosition >= sectionTop - scrollOffset) {
           setActiveSection(section.id);
-          console.log(activeSection);
+          // console.log(activeSection);
           break;
         }
       }
@@ -71,7 +71,7 @@ const Navbar = () => {
           isScrolled ? "header-sticky  stickyAdd" : "header-fixed"
         }`}
       >
-        <div className="header-wrapper h-[122px] flex items-center py-0 px-[15px] md:px-[30px] xl:px-[64px]">
+        <div className="header-wrapper h-[100px] flex items-center py-0 px-[15px] md:px-[30px] xl:px-[64px]">
           <div className=" w-1/2 lg:w-2/12">
             <div className=" flex items-center gap-4 ">
               <a href="#">
