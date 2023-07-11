@@ -12,7 +12,7 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
         onClick={toggleMenu}
       ></div>
       {/* Mobile menu sidebar */}
-      <div className={`mobile-menu-sidebar ${isMenuOpen ? "open" : ""}`}>
+      <div className={`mobile-menu-sidebar md:w-[50%] md:left-[-50%] w-[70%] left-[-70%]   ${isMenuOpen ? "open" : ""}`}>
         {/* Mobile menu header */}
         <div className="mobile-menu-header  my-3">
           <div className=" flex items-center gap-4 ">
