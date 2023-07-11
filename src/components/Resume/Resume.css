@@ -1,0 +1,43 @@
+.btn-shadow {
+  box-shadow: -8px -8px 10px 5px #878e9909, 8px 8px 10px 5px #34343432;
+}
+.hover_child{
+  border:5px solid #17191c;
+  background-color: #212428;
+}
+.hover_child2{
+  border:4.5px solid #0d101371;
+}
+.hover_sibling:hover+.hover_parent .hover_child{
+  z-index: -1;
+  background-color:#ff014f;
+  border:5px solid #17191c;
+}
+
+.skills{
+  width: 100%;
+  max-width: 600px;
+  
+}
+.skill-bar{
+  height: 8px;
+  box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.4588235294), inset -8px -8px 16px rgba(56, 62, 69, 0.4588235294);
+  border-radius: 6px;
+  padding:2.4px 1px;
+}
+.skill-per{
+  height: 7px;
+  background-image: linear-gradient(to right, #ff014f ,rgba(255, 0, 0, 0.823));
+  border-radius: 6px;
+  position: relative;
+  animation: fillBars 1s 1;
+}
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}

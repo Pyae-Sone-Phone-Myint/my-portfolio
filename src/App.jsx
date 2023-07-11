@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
 const App = () => {
@@ -22,9 +23,12 @@ const App = () => {
     <section id="education" className="section-separator">
      <h1 className=" text-2xl text-white ">education</h1>
     </section>
+
   
     <section id="resume" className="section-separator">
-     <h1 className=" text-2xl text-white ">Resume</h1>
+     <h1 className=" text-2xl text-white ">
+       <Resume/>
+       </h1>
     </section>
      */}
         <section id="portfolio" className="section-separator">
