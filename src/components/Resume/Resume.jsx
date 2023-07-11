@@ -8,14 +8,14 @@ const Resume = () => {
   return (
     <>
       <div>
-        <div className=" text-center text-[#ff014f] ">
+        <div className=" text-center text-[#ff014f] text-[15px] tracking-widest mb-5">
           7+ YEARS OF EXPERIENCE
         </div>
         <h1 className=" mb-12 text-center text-[#c4cfde] text-[8vw] lg:text-[5vw] font-semibold">
           My Resume
         </h1>
         {/* button */}
-        <div className="flex flex-col lg:flex-row btn-shadow w-[80%] mx-auto rounded-lg">
+        <div className="flex flex-col lg:flex-row btn-shadow w-[83%] mx-auto rounded-lg">
           <button
             className={`text-center py-4 lg:py-7 text-xl font-semibold hover:font-normal rounded-lg text-[#c4cfde] hover:shadow hover:shadow-gray-900 ${
               btn == "education"
