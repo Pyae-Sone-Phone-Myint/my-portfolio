@@ -76,17 +76,15 @@ const Portfolio = () => {
             pagination: false,
             perPage: 3,
             breakpoints: {
-              640: {
-                perPage: 1,
-                pagination: true,
-                arrows: false,
-              },
-              767: {
-                perPage: 2,
-              },
               // 1024: {
               //   perPage: 3,
               // },
+              967: {
+                perPage: 2,
+              },
+              640: {
+                perPage: 1,
+              },
             },
           }}
         >
@@ -102,35 +100,40 @@ const Portfolio = () => {
         </Splide>
       </div>
       {showDetail && (
-        <div className=" bg-[#212428] h- w-full overflow-y-scroll fixed top-0 left-0 z-[9999] flex items-center">
-          <div className="model_toggle h-screen">
-            <div className="close-btn" onClick={() => setShowDetail(false)}>
-              <AiOutlineClose />
-            </div>
-            <div className=" flex lg:flex-row flex-col gap-8">
-              <div className=" rounded-xl overflow-hidden lg:w-6/12">
-                <img src={detail.image} alt="" />
+        <div className=" bg-[#212428] h-screen w-full fixed top-0 left-0 z-[9999] ">
+          <div className="overflow-y-scroll h-full">
+            <div className="model_toggle my-10">
+              <div className="close-btn" onClick={() => setShowDetail(false)}>
+                <AiOutlineClose />
               </div>
-              <div className=" lg:w-5/12 flex flex-col justify-between">
-                <h4 className=" text-[calc(1rem+.1vw)] font-medium text-[rgb(135,142,153)]">
-                  Featured - Design
-                </h4>
-                <h1 className=" text-[calc(2.1rem+.1vw)] font-bold text-[rgb(196,207,222)]">
-                  {detail.title}
-                </h1>
-                <p className=" text-[calc(1.25rem+.1vw)] font-medium text-[rgb(135,142,153)]">
-                  {detail.para}
-                </p>
-                <p className=" text-[calc(1.25rem+.1vw)] font-medium text-[rgb(135,142,153)]">
-                  {detail.para1}
-                </p>
-                <div className=" flex  gap-10">
-                  <a href="#" className=" btn">
-                    like this
-                  </a>
-                  <a href="#" className=" btn ">
-                    view project <span><MdArrowForwardIos size={'.9rem'}/></span>
-                  </a>
+              <div className=" flex lg:flex-row flex-col gap-8 items-center">
+                <div className=" rounded-xl overflow-hidden  lg:w-6/12">
+                  <img src={detail.image} className=" h-full w-full object-contain" alt={detail.title} />
+                </div>
+                <div className=" lg:w-5/12 flex flex-col justify-between md:gap-5 gap-3">
+                  <h4 className=" text-[calc(1rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                    Featured - Design
+                  </h4>
+                  <h1 className=" md:text-[calc(2.1rem+.1vw)] text-[calc(1.8rem+.1vw)] font-bold text-[rgb(196,207,222)]">
+                    {detail.title}
+                  </h1>
+                  <p className=" md:text-[calc(1.25rem+.1vw)] text-[calc(1.2rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                    {detail.para}
+                  </p>
+                  <p className=" md:text-[calc(1.25rem+.1vw)] text-[calc(1.2rem+.1vw)] font-medium text-[rgb(135,142,153)]">
+                    {detail.para1}
+                  </p>
+                  <div className=" flex  gap-10">
+                    <a href="#" className=" btn">
+                      like this
+                    </a>
+                    <a href="#" className=" btn ">
+                      view project
+                      <span>
+                        <MdArrowForwardIos size={".9rem"} />
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
