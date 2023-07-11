@@ -6,7 +6,7 @@ const Resume_item2 = () => {
     <>
       <div className="w-[83%] mx-auto flex flex-col my-10 gap-10 lg:flex-row pb-5">
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f] tracking-widest">Features</div>
+          <div className="text-[#ff014f] text-[17px] tracking-widest">Features</div>
           <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
             Design Skill
           </div>
@@ -79,7 +79,7 @@ const Resume_item2 = () => {
           </div>
         </div>
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f] tracking-widest">Features</div>
+          <div className="text-[#ff014f] text-[17px] tracking-widest">Features</div>
           <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
             Development Skill
           </div>
