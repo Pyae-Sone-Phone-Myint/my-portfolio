@@ -108,18 +108,19 @@
 .mobile-menu-sidebar {
   position: fixed;
   top: 0;
-  left: -50%;
-  width: 40%;
   height: 100%;
   background-color: #191b1e;
   padding: 25px 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.514);
   z-index: 9999;
-  transition: left 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  overflow: scroll;
+  opacity: 0;
 }
 
 .mobile-menu-sidebar.open {
   left: 0%;
+  opacity: 1;
 }
 .disable-scroll {
   overflow: hidden;

@@ -99,7 +99,7 @@
     outline: none;
 }
 .input-group input:focus, .input-group textarea:focus{
-    border: 1px solid   #ff014f;;
+    border: 1px solid   #ff014f;
 } .input-group textarea {
     background-color: #191b1e;
     border-radius: 6px;
