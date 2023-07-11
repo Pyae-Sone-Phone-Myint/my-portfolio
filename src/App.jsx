@@ -25,12 +25,12 @@ const App = () => {
     </section>
 
   
-    <section id="resume" className="section-separator">
-     <h1 className=" text-2xl text-white ">
-       <Resume/>
-       </h1>
-    </section>
-     */}
+  */}
+        <section id="resume" className="section-separator">
+          <h1 className=" text-2xl text-white ">
+            <Resume />
+          </h1>
+        </section>
         <section id="portfolio" className="section-separator">
           <Portfolio />
         </section>

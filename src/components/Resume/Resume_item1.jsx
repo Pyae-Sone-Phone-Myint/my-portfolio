@@ -6,7 +6,7 @@ const Resume_item1 = () => {
     <>
       <div className="w-[80%] mx-auto flex flex-col my-10 gap-10 lg:flex-row pb-10">
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f]">2007 - 2010</div>
+          <div className="text-[15px] mb-3 text-[#ff014f]">2007 - 2010</div>
           <div className=" text-[35px] mb-20 font-bold text-[#c4cfde]">
             Education Quality
           </div>
@@ -18,11 +18,11 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     Personal Portfolio April Fools
                   </h1>
-                  <p className="text-[#7c838e]">
+                  <p className="text-[#7c838e] text-[16px]">
                     University of DVI (1997 - 2001)
                   </p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.30/5
                 </div>
               </div>
@@ -47,11 +47,11 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     Examples Of Personal Portfolio
                   </h1>
-                  <p className="text-[#7c838e]">
+                  <p className="text-[#7c838e] text-[16px]">
                     College of Studies (2000 - 2002)
                   </p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.50/5
                 </div>
               </div>
@@ -75,11 +75,11 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     Tips For Personal Portfolio
                   </h1>
-                  <p className="text-[#7c838e]">
+                  <p className="text-[#7c838e] text-[16px]">
                     University of Studies (1997 - 2001)
                   </p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.80/5
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Resume_item1 = () => {
           </div>
         </div>
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f]">2007 - 2010</div>
+          <div className="text-[#ff014f] mb-3 text-[15px]">2007 - 2010</div>
           <div className=" text-[35px] mb-20 font-bold text-[#c4cfde]">
             Job Experience
           </div>
@@ -109,9 +109,9 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     Diploma in Web Development
                   </h1>
-                  <p className="text-[#7c838e]">BSE In CSE (2004 - 2008)</p>
+                  <p className="text-[#7c838e] text-[16px]">BSE In CSE (2004 - 2008)</p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.70/5
                 </div>
               </div>
@@ -136,11 +136,11 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     The Personal Portfolio Mystery
                   </h1>
-                  <p className="text-[#7c838e]">
+                  <p className="text-[#7c838e] text-[16px]">
                     Job at Rainbow-Themes (2008 - 2016)
                   </p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.95/5
                 </div>
               </div>
@@ -164,11 +164,11 @@ const Resume_item1 = () => {
                   <h1 className="text-white font-semibold text-[25px]">
                     Diploma in Computer Science
                   </h1>
-                  <p className="text-[#7c838e]">
+                  <p className="text-[#7c838e] text-[16px]">
                     Works at Plugin Development (2016 - 2020)
                   </p>
                 </div>
-                <div className="text-[#ff014f] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   5.00/5
                 </div>
               </div>
