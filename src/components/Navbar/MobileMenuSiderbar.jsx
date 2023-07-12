@@ -48,14 +48,14 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
               Experience
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#education"
               onClick={(e) => handleNavClick(e, "education")}
             >
               Education
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a href="#resume" onClick={(e) => handleNavClick(e, "resume")}>
@@ -67,7 +67,7 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
               href="#portfolio"
               onClick={(e) => handleNavClick(e, "portfolio")}
             >
-              Portfolio
+              Projects
             </a>
           </li>
           <li>

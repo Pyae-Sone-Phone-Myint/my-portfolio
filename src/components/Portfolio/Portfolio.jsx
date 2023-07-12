@@ -57,10 +57,10 @@ const Portfolio = () => {
             <div className="w-full">
               <div className="text-center">
                 <span className=" contact-subtitle">
-                  VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+                  VISIT MY Project AND KEEP YOUR FEEDBACK
                 </span>
                 <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
-                  My Portfolio
+                  My Projects
                 </p>
               </div>
             </div>

@@ -8,13 +8,12 @@ const home = () => {
 	return (
 		<>
 			<div
-				className=" 2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto
-"
+				className=" 2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto"
 			>
 				<div className=" flex gap-5 flex-col-reverse lg:flex-row container mx-auto justify-center w-full">
-					<div className="w-full lg:w-1/2">
+					<div className="w-full lg:w-1/2 ">
 						{/* 1st one */}
-						<div className=" p-[35px] bg-[#212428] shadow-one home-hover">
+						<div className=" p-[35px] bg-[#212428] shadow-one home-hover rounded-xl">
 							{/* home 1st one */}
 							<div className="px-[15px]">
 								<div className=" user mb-4">
@@ -58,17 +57,17 @@ const home = () => {
 								<button className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
 									Download Cv
 								</button>
-								<button className=" px-4 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
+								<a href="#contact" className=" px-4 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
 									Contact Me
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
-					<div className="w-full lg:w-1/2 img-hover">
-						<div className=" bg-area shadow-one ">
-							<div className=" img-area ">
+					<div className="w-full lg:w-1/2 img-hover rounded-xl">
+						<div className="shadow-one bg-area  ">
+							<div className=" h-full rounded-lg overflow-hidden">
 								<img
-									className=" w-fit h-fit"
+									className=" h-full object-cover"
 									src="https://rainbowit.net/html/inbio/assets/images/slider/banner-02.png"
 									alt=""
 								/>
@@ -76,11 +75,11 @@ const home = () => {
 						</div>
 					</div>
 					{/* fixed button */}
-					<div className=" fixed-button">
+					{/* <div className=" fixed-button">
 						<button className=" demos-button">
 							<span className=" demos">DEMOS</span>
 						</button>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</>

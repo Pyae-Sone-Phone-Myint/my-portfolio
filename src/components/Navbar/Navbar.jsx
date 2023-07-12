@@ -108,13 +108,13 @@ const Navbar = () => {
               >
                 <span className=" nav-text">Experience</span>
               </a>
-              <a
+              {/* <a
                 href="#education"
                 className={activeSection === "education" ? "active" : ""}
                 onClick={(e) => handleNavClick(e, "education")}
               >
                 <span className=" nav-text">Education</span>
-              </a>
+              </a> */}
 
               <a
                 href="#resume"
@@ -128,7 +128,7 @@ const Navbar = () => {
                 className={activeSection === "portfolio" ? "active" : ""}
                 onClick={(e) => handleNavClick(e, "portfolio")}
               >
-                <span className=" nav-text">Portfolio</span>
+                <span className=" nav-text">Projects</span>
               </a>
               <a
                 href="#blog"
