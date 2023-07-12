@@ -4,7 +4,7 @@ import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { AiOutlineArrowRight } from "react-icons/ai";
 const Contact = () => {
   return (
-    <div className=" container mx-auto">
+    <div className="  2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
       <div className="flex">
         <div className="w-full">
           <div className="text-center">
@@ -15,9 +15,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-[50px] lg:flex-nowrap flex-wrap">
+      <div className="container flex mt-[50px] lg:flex-nowrap flex-wrap">
         <div className="w-full lg:w-[5/12]">
-          <div className="contact-box-area mx-2 md:mx-0">
+          <div className="contact-box-area  lg:mx-0">
             <div className="thumb">
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/contact/contact1.png"
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full lg:w-[7/12]">
-          <div className="contact-form-wrapper mx-2 lg:ml-[20px] lg:mr-0 lg:mt-0 mt-[55px]">
+          <div className="contact-form-wrapper  lg:ml-[20px] lg:mr-0 lg:mt-0 mt-[55px]">
             <form action="" method="POST" id="sendForm">
               {" "}
             </form>
