@@ -1,6 +1,9 @@
 .btn-shadow {
   box-shadow: -8px -8px 10px 5px #878e9909, 8px 8px 10px 5px #34343432;
 }
+.box-shadow {
+  box-shadow: -8px -8px 10px 5px #878e9909, 8px 8px 10px 5px #34343432;
+}
 .hover_child{
   border:5px solid #17191c;
   background-color: #212428;
@@ -16,8 +19,7 @@
 
 .skills{
   width: 100%;
-  max-width: 600px;
-  
+  /* max-width: 600px; */
 }
 .skill-bar{
   height: 8px;

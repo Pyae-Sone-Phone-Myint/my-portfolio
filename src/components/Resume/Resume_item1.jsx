@@ -4,7 +4,7 @@ import "./Resume";
 const Resume_item1 = () => {
   return (
     <>
-      <div className="w-[83%] mx-auto flex flex-col my-10 gap-10 lg:flex-row pb-10">
+      <div className="container mx-auto flex flex-col mt-14 gap-10 lg:flex-row pb-20 mb-10">
         <div className=" w-full lg:w-[50%]">
           <div className="text-[15px] mb-3 text-[#ff014f]">2007 - 2010</div>
           <div className=" text-[35px] mb-20 font-bold text-[#c4cfde]">
@@ -12,7 +12,7 @@ const Resume_item1 = () => {
           </div>
           {/* Personal Portfolio April Fools */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling  w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling  w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
@@ -41,7 +41,7 @@ const Resume_item1 = () => {
           </div>
           {/* Examples Of Personal Portfolio */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
@@ -69,7 +69,7 @@ const Resume_item1 = () => {
           </div>
           {/* Tips For Personal Portfolio */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
@@ -103,13 +103,15 @@ const Resume_item1 = () => {
           </div>
           {/* Diploma in Web Development */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling  w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling  w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
                     Diploma in Web Development
                   </h1>
-                  <p className="text-[#7c838e] text-[16px]">BSE In CSE (2004 - 2008)</p>
+                  <p className="text-[#7c838e] text-[16px]">
+                    BSE In CSE (2004 - 2008)
+                  </p>
                 </div>
                 <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.70/5
@@ -130,7 +132,7 @@ const Resume_item1 = () => {
           </div>
           {/* The Personal Portfolio Mystery */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
@@ -158,7 +160,7 @@ const Resume_item1 = () => {
           </div>
           {/*Diploma in Computer Science */}
           <div className=" flex flex-row-reverse w-full gap-10">
-            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] btn-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
+            <div className="hover_sibling mt-14 w-full hover bg-[#212428] z-50 hover:text-white text-[#7c838e] box-shadow p-10 rounded-lg select-none hover:bg-gradient-to-r from-[#1e2024] to-[#23272b]">
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
@@ -186,7 +188,9 @@ const Resume_item1 = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-1 w-full lg:w-[83%] mx-auto border-black" />
+      <div className=" container mx-auto">
+      <hr className="border-b-1 w-full border-black" />
+      </div>
     </>
   );
 };
