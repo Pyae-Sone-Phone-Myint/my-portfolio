@@ -51,53 +51,55 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className=" container mx-auto relative z-50">
-        <div className="flex my-7">
-          <div className="w-full">
-            <div className="text-center">
-              <span className=" contact-subtitle">
-                VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
-              </span>
-              <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
-                My Portfolio
-              </p>
+      <div className="2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
+        <div className=" container mx-auto relative z-50">
+          <div className="flex my-7">
+            <div className="w-full">
+              <div className="text-center">
+                <span className=" contact-subtitle">
+                  VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+                </span>
+                <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
+                  My Portfolio
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <Splide
-          className=""
-          hasTrack={false}
-          options={{
-            type: "loop",
-            speed: 1500,
-            // gap: "2rem",
-            arrows: true,
-            pagination: false,
-            perPage: 3,
-            breakpoints: {
-              // 1024: {
-              //   perPage: 3,
-              // },
-              967: {
-                perPage: 2,
+          <Splide
+            className=""
+            hasTrack={false}
+            options={{
+              type: "loop",
+              speed: 1500,
+              // gap: "2rem",
+              arrows: true,
+              pagination: false,
+              perPage: 3,
+              breakpoints: {
+                // 1024: {
+                //   perPage: 3,
+                // },
+                967: {
+                  perPage: 2,
+                },
+                640: {
+                  perPage: 1,
+                },
               },
-              640: {
-                perPage: 1,
-              },
-            },
-          }}
-        >
-          <SplideTrack className=" p-10">{card}</SplideTrack>
-          <div className="splide__arrows ">
-            <button className="splide__arrow splide__arrow--prev bg-[#212428]">
-              <BsArrowRightShort className=" btn-arrow prev" />
-            </button>
-            <button className="splide__arrow splide__arrow--next bg-[#212428]">
-              <BsArrowRightShort className=" btn-arrow next" />
-            </button>
-          </div>
-        </Splide>
+            }}
+          >
+            <SplideTrack className=" p-10">{card}</SplideTrack>
+            <div className="splide__arrows ">
+              <button className="splide__arrow splide__arrow--prev bg-[#212428]">
+                <BsArrowRightShort className=" btn-arrow prev" />
+              </button>
+              <button className="splide__arrow splide__arrow--next bg-[#212428]">
+                <BsArrowRightShort className=" btn-arrow next" />
+              </button>
+            </div>
+          </Splide>
+        </div>
       </div>
       {showDetail && (
         <div className=" bg-[#212428] h-screen w-full fixed top-0 left-0 z-[9999] ">
@@ -108,7 +110,11 @@ const Portfolio = () => {
               </div>
               <div className=" flex lg:flex-row flex-col gap-8 items-center">
                 <div className=" rounded-xl overflow-hidden  lg:w-6/12">
-                  <img src={detail.image} className=" h-full w-full object-contain" alt={detail.title} />
+                  <img
+                    src={detail.image}
+                    className=" h-full w-full object-contain"
+                    alt={detail.title}
+                  />
                 </div>
                 <div className=" lg:w-5/12 flex flex-col justify-between md:gap-5 gap-3">
                   <h4 className=" text-[calc(1rem+.1vw)] font-medium text-[rgb(135,142,153)]">

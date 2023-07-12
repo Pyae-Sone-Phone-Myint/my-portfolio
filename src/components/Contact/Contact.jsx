@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-[50px] lg:flex-nowrap flex-wrap">
+      <div className="container flex mt-[50px] lg:flex-nowrap flex-wrap">
         <div className="w-full lg:w-[5/12]">
           <div className="contact-box-area  lg:mx-0">
             <div className="thumb">

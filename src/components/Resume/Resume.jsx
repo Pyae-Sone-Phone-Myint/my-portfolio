@@ -7,11 +7,11 @@ const Resume = () => {
   const [btn, setBtn] = useState("education");
   return (
     <>
-      <div>
+      <div className="  2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
         <div className=" text-center text-[#ff014f] text-[15px] tracking-widest mb-5">
           7+ YEARS OF EXPERIENCE
         </div>
-        <h1 className=" mb-12 text-center text-[#c4cfde] text-[8vw] lg:text-[5vw] font-semibold">
+        <h1 className=" mb-16 text-center text-[#c4cfde] text-[8vw] lg:text-[5vw] font-semibold">
           My Resume
         </h1>
         {/* button */}
@@ -72,7 +72,7 @@ const Resume = () => {
         {/* // */}
         {/* resume_items */}
         <div className=" w-full ">
-          {btn === "professional"? <Resume_item2/>:<Resume_item1/>}
+          {btn === "professional" ? <Resume_item2 /> : <Resume_item1 />}
         </div>
       </div>
     </>

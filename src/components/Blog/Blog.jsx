@@ -48,21 +48,23 @@ const Blog = () => {
 
   return (
     <>
-      <div className=" container mx-auto relative z-50">
-        <div className="flex my-7">
-          <div className="w-full">
-            <div className="text-center">
-              <span className=" contact-subtitle">
-                VISIT MY BLOG AND KEEP YOUR FEEDBACK
-              </span>
-              <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
-                My Blog
-              </p>
+      <div className="2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
+        <div className=" container mx-auto relative z-50">
+          <div className="flex my-7">
+            <div className="w-full">
+              <div className="text-center">
+                <span className=" contact-subtitle">
+                  VISIT MY BLOG AND KEEP YOUR FEEDBACK
+                </span>
+                <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
+                  My Blog
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="flex md:flex-row flex-col gap-8 ">{card}</div>
+          <div className="flex md:flex-row flex-col gap-8 ">{card}</div>
+        </div>
       </div>
       {showDetail && (
         <div className=" bg-[#212428] h-screen w-full fixed top-0 left-0 z-[9999] ">
