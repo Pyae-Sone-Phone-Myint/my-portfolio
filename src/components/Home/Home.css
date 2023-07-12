@@ -1,0 +1,84 @@
+.user {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #ff014f;
+
+}
+
+.info svg {
+	color: #ff014f;
+}
+
+.bg-area{
+    padding: 34px;
+    border-radius: 10px;
+    
+    height: 100%;
+    transform: 0.4s;
+}
+
+ 
+.shadow-one {
+	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+
+.cv-button{
+    transition: 0.5s;
+}
+.cv-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.fixed-button{
+    width: 40px;
+    position: fixed;
+    z-index: 99;
+    right: 0px;
+    top: calc(50% - 55px);
+
+}
+.demos-button{
+    border-radius: 6px 0 0 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    border: 0 none;
+    width: 100%;
+    min-width: 100%;
+    padding: 10px 0px 8px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.img-hover{
+    transition: 0.5s;
+}
+
+.img-hover:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.home-hover{
+    transition: 0.5s;
+}
+.home-hover:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.demos{
+    color: #878e99;
+    writing-mode: vertical-rl;
+   text-orientation: upright;
+}

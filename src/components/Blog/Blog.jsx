@@ -23,7 +23,7 @@ const Blog = () => {
   const card = blog_data?.map((item, index) => {
     return (
       <>
-        <div
+        <div 
           className=" p-7 rounded-2xl card overflow-hidden w-full mx-auto bg-transparent md:w-4/12"
           onClick={() => clickHandler(item)}
         >
