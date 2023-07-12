@@ -4,9 +4,11 @@ import "./Resume"
 const Resume_item2 = () => {
   return (
     <>
-      <div className="w-[83%] mx-auto flex flex-col my-10 gap-10 lg:flex-row pb-5">
+      <div className="container flex flex-col mt-10 mx-auto gap-24 lg:flex-row pb-20 ">
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f] text-[17px] tracking-widest">Features</div>
+          <div className="text-[#ff014f] text-[17px] tracking-widest">
+            Features
+          </div>
           <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
             Design Skill
           </div>
@@ -79,7 +81,9 @@ const Resume_item2 = () => {
           </div>
         </div>
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f] text-[17px] tracking-widest">Features</div>
+          <div className="text-[#ff014f] text-[17px] tracking-widest">
+            Features
+          </div>
           <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
             Development Skill
           </div>
@@ -152,7 +156,9 @@ const Resume_item2 = () => {
           </div>
         </div>
       </div>
-      <hr className="border-b-1 w-full lg:w-[83%] mx-auto border-black" />
+      <div className=" container mx-auto">
+        <hr className="border-b-1 w-full border-black" />
+      </div>
     </>
   );
 };
