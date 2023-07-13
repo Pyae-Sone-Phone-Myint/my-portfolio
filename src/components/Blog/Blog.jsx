@@ -6,14 +6,13 @@ import { BsArrowRightShort } from "react-icons/bs";
 import "./blog.css";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdArrowForwardIos } from "react-icons/md";
+import RevealUp from "../Reveal/RevealUp.jsx";
 
 const Blog = () => {
   const [detail, setDetail] = useState("");
   const [showDetail, setShowDetail] = useState(false);
 
-  useEffect(() => {
-    console.log(detail);
-  }, [detail]);
+ 
 
   const clickHandler = (item) => {
     setDetail(item);
@@ -22,27 +21,33 @@ const Blog = () => {
 
   const card = blog_data?.map((item, index) => {
     return (
-      <>
-        <div 
-          className=" p-7 rounded-2xl card overflow-hidden w-full mx-auto bg-transparent md:w-4/12"
-          onClick={() => clickHandler(item)}
-        >
-          <div className=" overflow-hidden rounded-xl">
-            <img src={item.image} className=" object-cover" alt="" />
-          </div>
-          <div className="flex justify-between my-3">
-            <h1 className=" uppercase text-primary text-[calc(0.7rem+.1vw)] font-semibold">
-              {item.usage}
-            </h1>
-          </div>
-          <a
-            href="#"
-            className=" text-[calc(1.4rem+.1vw)] font-bold text-white hover:text-primary transition-all duration-300 ease-in-out"
-          >
-            {item.title}
-          </a>
+    
+      <div key={index} className=" w-full mx-auto bg-transparent md:w-4/12">
+
+    <RevealUp delay={0.5+(index*0.3)}>
+
+    <div
+        className=" p-7 rounded-2xl card overflow-hidden"
+        onClick={() => clickHandler(item)}
+      >
+        <div className=" overflow-hidden rounded-xl">
+          <img src={item.image} className=" object-cover" alt="" />
         </div>
-      </>
+        <div className="flex justify-between my-3">
+          <h1 className=" uppercase text-primary text-[calc(0.7rem+.1vw)] font-semibold">
+            {item.usage}
+          </h1>
+        </div>
+        <a
+          href="#"
+          className=" text-[calc(1.4rem+.1vw)] font-bold text-white hover:text-primary transition-all duration-300 ease-in-out"
+        >
+          {item.title}
+        </a>
+      </div>
+    </RevealUp>
+        </div>
+     
     );
   });
 
@@ -52,7 +57,8 @@ const Blog = () => {
         <div className=" container mx-auto relative z-50">
           <div className="flex my-7">
             <div className="w-full">
-              <div className="text-center">
+             <RevealUp>
+             <div className="text-center">
                 <span className=" contact-subtitle">
                   VISIT MY BLOG AND KEEP YOUR FEEDBACK
                 </span>
@@ -60,6 +66,7 @@ const Blog = () => {
                   My Blog
                 </p>
               </div>
+             </RevealUp>
             </div>
           </div>
 

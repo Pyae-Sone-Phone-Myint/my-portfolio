@@ -6,6 +6,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
 import "./portfolio.css";
 import { MdArrowForwardIos } from "react-icons/md";
+import RevealUp from "../Reveal/RevealUp.jsx";
 
 const Portfolio = () => {
   const [detail, setDetail] = useState("");
@@ -55,18 +56,21 @@ const Portfolio = () => {
         <div className=" container mx-auto relative z-50">
           <div className="flex my-7">
             <div className="w-full">
+              <RevealUp>
               <div className="text-center">
-                <span className=" contact-subtitle">
-                  VISIT MY Project AND KEEP YOUR FEEDBACK
-                </span>
-                <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
-                  My Projects
-                </p>
-              </div>
+                  <span className=" contact-subtitle">
+                    VISIT MY Project AND KEEP YOUR FEEDBACK
+                  </span>
+                  <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
+                    My Projects
+                  </p>
+                </div>
+              </RevealUp>
             </div>
           </div>
 
-          <Splide
+        <RevealUp delay={0.6}>
+        <Splide
             className=""
             hasTrack={false}
             options={{
@@ -99,6 +103,7 @@ const Portfolio = () => {
               </button>
             </div>
           </Splide>
+        </RevealUp>
         </div>
       </div>
       {showDetail && (
