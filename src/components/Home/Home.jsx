@@ -5,7 +5,25 @@ import { AiOutlineFile } from "react-icons/ai";
 import { BsEnvelope } from "react-icons/bs";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Reveal from "../Reveal/Reveal";
+import Typed from "typed.js";
 const home = () => {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["a Developer", "a Professional Coder"],
+      typeSpeed: 90,
+      backSpeed: 90,
+      smartBackspace: true,
+      backDelay: 700,
+      loop: true,
+      loopCount: Infinity,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <>
       <div className=" 2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
@@ -19,9 +37,12 @@ const home = () => {
                   <div className=" user mb-4">
                     <FiUser className=" text-2xl" />
                   </div>
-                  <h2 className=" text-white text-[40px] font-bold leading-[62px] mb-3">
+                  <h2 className=" text-white text-[40px] font-bold leading-[62px]">
                     Hi, I’m
-                    <span className=" text-[#ff014f] ml-2 ">blah blah </span>
+                    <span className=" text-[#ff014f] ml-2 ">Tommy</span>
+                  </h2>
+                  <h2 className=" text-white text-[40px] font-bold leading-[62px]">
+                    <span ref={el} />
                   </h2>
                   <p className=" text-[#c4cfde] text-sm my-6">
                     Web designer and developer working for envato.com in Paris,
@@ -39,7 +60,7 @@ const home = () => {
                   <div className=" info flex items-center gap-3 mt-3">
                     <BsEnvelope className=" text-3xl" />
                     <span className=" text-[#c4cfde] ">
-                      john.slady@gmail.com
+                      tommy.slady@gmail.com
                     </span>
                   </div>
                   <div className="info flex items-center gap-3 mt-3">
@@ -71,7 +92,7 @@ const home = () => {
             </Reveal>
           </div>
           <div className="w-full lg:w-1/2 img-hover rounded-xl ">
-            <Reveal duration={0.8}  hFull={true}>
+            <Reveal duration={0.8} hFull={true}>
               <div className="shadow-one bg-area h-full ">
                 <div className=" h-full rounded-lg overflow-hidden ">
                   <img
