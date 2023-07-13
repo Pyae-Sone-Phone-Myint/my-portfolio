@@ -67,22 +67,22 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`bg-[#212428]   navbar   header  ${
-          isScrolled ? "header-sticky  stickyAdd" : "header-fixed"
+        className={`bg-[#212428]   navbar   header shadow-md ${
+          isScrolled ? "header-sticky  stickyAdd" : "header-fixed "
         }`}
       >
-        <div className="header-wrapper h-[100px] flex items-center py-0 px-[15px] md:px-[30px] xl:px-[64px]">
-          <div className=" w-1/2 lg:w-2/12">
-            <div className=" flex items-center gap-4 ">
+        <div className="header-wrapper h-[100px] flex items-center py-0 px-[25px] md:px-[35px] xl:px-[84px]">
+          <div className=" w-1/2 lg:w-2/12 ">
+            <div className=" flex items-center  gap-4  ">
               <a href="#">
                 <img
                   src="https://cdn.pixabay.com/photo/2021/06/04/10/28/portrait-6309448_1280.jpg"
-                  className="w-[70px] h-[70px] rounded-full sidebar-img border "
+                  className="w-[50px] h-[50px]  md:w-[70px] md:h-[70px] rounded-full sidebar-img border "
                   alt="img"
                 />
               </a>
               <h1 className=" select-none text-[#c4cfde] text-xl tracking-wider uppercase font-semibold">
-                David
+                Tommy
               </h1>
             </div>
           </div>

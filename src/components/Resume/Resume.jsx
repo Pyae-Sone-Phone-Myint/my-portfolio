@@ -11,14 +11,20 @@ const Resume = () => {
       <div className="2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
         <div className=" flex justify-center flex-col items-center">
           <RevealUp>
-            <div className="flex flex-col">
-              <div className=" text-center text-[#ff014f] text-[15px] tracking-widest mb-10">
-                7+ YEARS OF EXPERIENCE
-              </div>
-              <h1 className=" mb-16 text-center text-[#c4cfde] text-[8vw] lg:text-[5vw] font-semibold">
-                My Resume
-              </h1>
+          <div className="text-center pb-[40px]">
+              <span className=" contact-subtitle">  7+ YEARS OF EXPERIENCE</span>
+              <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
+            My Resume
+              </p>
             </div>
+            {/* <div className="flex flex-col">
+              <div className=" text-center text-[#ff014f] text-[15px] tracking-widest mb-10">
+              
+              </div>
+              <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
+                
+              </p>
+            </div> */}
           </RevealUp>
           {/* button */}
           <div className="container mx-auto">
