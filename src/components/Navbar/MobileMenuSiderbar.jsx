@@ -22,7 +22,7 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
               alt="img"
             />
             <h1 className=" text-[#c4cfde] text-xl tracking-wider uppercase font-semibold">
-              David
+              Tommy
             </h1>
           </div>
           {/* Close button */}
