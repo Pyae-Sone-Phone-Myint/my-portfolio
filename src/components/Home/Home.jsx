@@ -57,9 +57,9 @@ const home = () => {
                 </span>
                 {/* download button */}
                 <div className=" flex items-center gap-5 mt-5">
-                  <button className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
+                  <a href="../../../Resume.pdf" target="_blank" className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
                     Download Cv
-                  </button>
+                  </a>
                   <a
                     href="#contact"
                     className=" px-4 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]"

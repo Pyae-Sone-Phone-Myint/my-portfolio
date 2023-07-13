@@ -9,3 +9,11 @@
 	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
 
+.exp-img{
+	overflow: hidden;
+	transition: all 0.4s ease;
+}
+
+.exp-img:hover img{
+	transform: scale(1.1);
+}
