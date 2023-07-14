@@ -21,7 +21,7 @@ const Experience = () => {
         {/* experience card */}
         <div className=" container">
           {/* first card */}
-         <RevealUp delay={0.6}>
+         <RevealUp delay={0.4}>
          <div className=" card  flex flex-col lg:flex-row  items-center  gap-10   mx-auto mt-[40px] mb-0 p-[30px] shadow-one rounded-md">
             {/* img  */}
             <div className="  overflow-hidden rounded-xl w-full lg:w-1/4">
@@ -56,7 +56,7 @@ const Experience = () => {
             </div>
           </div>
          </RevealUp>
-         <RevealUp delay={0.7}>
+         <RevealUp delay={0.45}>
          <div className=" card flex flex-col lg:flex-row  items-center  gap-10   mx-auto mt-[40px] mb-0 p-[30px] shadow-one rounded-md">
             {/* img  */}
             <div className="  overflow-hidden rounded-xl w-full lg:w-1/4">
@@ -91,7 +91,7 @@ const Experience = () => {
             </div>
           </div>
          </RevealUp>
-          <RevealUp delay={0.8}>
+          <RevealUp delay={0.5}>
           <div className=" card flex flex-col lg:flex-row  items-center  gap-10   mx-auto mt-[40px] mb-0 p-[30px] shadow-one rounded-md">
               {/* img  */}
               <div className="  overflow-hidden rounded-xl w-full lg:w-1/4">

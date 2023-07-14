@@ -67,7 +67,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`bg-[#212428]   navbar   header shadow-md ${
+        className={`bg-[#212428] navbar   header shadow-md ${
           isScrolled ? "header-sticky  stickyAdd" : "header-fixed "
         }`}
       >
