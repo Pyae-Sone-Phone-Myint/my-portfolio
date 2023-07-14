@@ -24,6 +24,16 @@ const home = () => {
       typed.destroy();
     };
   }, []);
+
+  const handleNavClick = (event, sectionId) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offset = section.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: offset, behavior: "smooth" });
+    }
+    setIsMenuOpen(false); // Close the mobile menu after clicking a link
+  };
   return (
     <>
       <div className=" 2xl:max-w-[1305px] xl:max-w-[1240px] lg:max-w-[945px] md:max-w-[705px] sm:max-w-[525px] max-w-[435px] mx-auto">
@@ -78,12 +88,17 @@ const home = () => {
                 </span>
                 {/* download button */}
                 <div className=" flex items-center gap-5 mt-5">
-                  <a href="../../../Resume.pdf" target="_blank" className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]">
+                  <a
+                    href="../../../Resume.pdf"
+                    target="_blank"
+                    className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]"
+                  >
                     Download Cv
                   </a>
                   <a
                     href="#contact"
                     className=" px-4 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]"
+                    onClick={(e)=>handleNavClick(e,'contact')}
                   >
                     Contact Me
                   </a>
