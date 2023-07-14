@@ -24,7 +24,7 @@ const Blog = () => {
     
       <div key={index} className=" w-full mx-auto bg-transparent md:w-4/12">
 
-    <RevealUp delay={0.5+(index*0.3)}>
+    <RevealUp delay={0.2+(index*0.3)}>
 
     <div
         className=" p-7 rounded-2xl card overflow-hidden"

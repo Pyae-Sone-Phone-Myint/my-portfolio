@@ -81,7 +81,7 @@ const Contact = () => {
           </RevealUp>
         </div>
         <div className="w-full lg:w-[7/12]">
-         <RevealUp delay={0.9} className="h-full">
+         <RevealUp delay={0.8} className="h-full">
          <div className="contact-form-wrapper h-full lg:ml-[20px] lg:mr-0 lg:mt-0 mt-[55px]">
             <form action="" method="POST" id="sendForm">
               {" "}
