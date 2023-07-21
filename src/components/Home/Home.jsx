@@ -44,7 +44,7 @@ const home = () => {
             <Reveal value={-200} duration={0.8}>
               <div className=" p-[35px] bg-[#212428] shadow-one home-hover rounded-xl">
                 {/* home 1st one */}
-                <div className="px-[15px]">
+                <div className="px-[15px] pb-24">
                   <div className=" user mb-4">
                     <FiUser className=" text-2xl" />
                   </div>
