@@ -6,6 +6,7 @@ import { BsEnvelope } from "react-icons/bs";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Reveal from "../Reveal/Reveal";
 import Typed from "typed.js";
+import myPhoto from '/IMG_20221102_102309.jpg'
 const home = () => {
   const el = React.useRef(null);
 
@@ -49,14 +50,13 @@ const home = () => {
                   </div>
                   <h2 className=" text-white text-[40px] font-bold leading-[62px]">
                     Hi, I’m
-                    <span className=" text-[#ff014f] ml-2 ">Tommy</span>
+                    <span className=" text-[#ff014f] ml-2 ">Hendrick</span>
                   </h2>
                   <h2 className=" text-white text-[40px] font-bold leading-[62px]">
                     <span ref={el} />
                   </h2>
                   <p className=" text-[#c4cfde] text-sm my-6">
-                    Web designer and developer working for envato.com in Paris,
-                    France.
+                    Web designer and developer working for Freelance Projects in UpWork.
                   </p>
                 </div>
                 {/* home 2nd part */}
@@ -64,18 +64,18 @@ const home = () => {
                   <div className="info flex items-center gap-3 mt-3">
                     <AiOutlineFile className=" text-3xl" />
                     <span className=" text-[#c4cfde] ">
-                      Web designer & developer
+                      Junior Web Developer
                     </span>
                   </div>
                   <div className=" info flex items-center gap-3 mt-3">
                     <BsEnvelope className=" text-3xl" />
                     <span className=" text-[#c4cfde] ">
-                      tommy.slady@gmail.com
+                    hendrick@gmail.com
                     </span>
                   </div>
                   <div className="info flex items-center gap-3 mt-3">
                     <HiOutlineLocationMarker className=" text-3xl" />
-                    <span className=" text-[#c4cfde] ">Paris fan</span>
+                    <span className=" text-[#c4cfde] ">Mingalardone, Yangon</span>
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const home = () => {
                     target="_blank"
                     className=" px-5 py-2 capitalize text-sm cv-button shadow-one text-[#ff014f]"
                   >
-                    Download Cv
+                    Download CV
                   </a>
                   <a
                     href="#contact"
@@ -112,7 +112,7 @@ const home = () => {
                 <div className=" h-full rounded-lg overflow-hidden ">
                   <img
                     className=" h-full object-cover"
-                    src="https://rainbowit.net/html/inbio/assets/images/slider/banner-02.png"
+                    src={myPhoto}
                     alt=""
                   />
                 </div>

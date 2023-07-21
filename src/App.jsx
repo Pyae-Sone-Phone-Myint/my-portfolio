@@ -30,12 +30,12 @@ const App = () => {
             <Resume />
           </h1>
         </section>
-        <section id="portfolio" className="section-separator">
+        {/* <section id="portfolio" className="section-separator">
           <Portfolio />
-        </section>
-        <section id="blog" className="section-separator">
+        </section> */}
+        {/* <section id="blog" className="section-separator">
           <Blog />
-        </section>
+        </section> */}
         <section id="contact" className="section-separator">
           <Contact />
         </section>

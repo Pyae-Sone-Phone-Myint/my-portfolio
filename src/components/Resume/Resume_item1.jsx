@@ -6,7 +6,7 @@ const Resume_item1 = () => {
     <>
       <div className="container mx-auto flex flex-col mt-14 gap-10 lg:flex-row pb-20 mb-10">
         <div className=" w-full lg:w-[50%]">
-          <div className="text-[15px] mb-3 text-[#ff014f]">2007 - 2010</div>
+          <div className="text-[15px] mb-3 text-[#ff014f]">2020 - PRESENT</div>
           <div className=" text-[35px] mb-20 font-bold text-[#c4cfde]">
             Education Quality
           </div>
@@ -16,15 +16,15 @@ const Resume_item1 = () => {
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
-                    Personal Portfolio April Fools
+                  Bachelor of Computer Science
                   </h1>
                   <p className="text-[#7c838e] text-[16px]">
-                    University of DVI (1997 - 2001)
+                    University of Greenwich (2021-Present)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                {/* <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.30/5
-                </div>
+                </div> */}
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">
@@ -45,15 +45,13 @@ const Resume_item1 = () => {
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
-                    Examples Of Personal Portfolio
+                    Special Web Design
                   </h1>
                   <p className="text-[#7c838e] text-[16px]">
-                    College of Studies (2000 - 2002)
+                    MMS IT (2022 - 2023)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
-                  4.50/5
-                </div>
+              
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">
@@ -73,15 +71,13 @@ const Resume_item1 = () => {
               <div className="flex items-center justify-between pb-10">
                 <div className="">
                   <h1 className="text-white font-semibold text-[25px]">
-                    Tips For Personal Portfolio
+                    Web Application Development
                   </h1>
                   <p className="text-[#7c838e] text-[16px]">
-                    University of Studies (1997 - 2001)
+                  MMS IT (2022 - 2023)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
-                  4.80/5
-                </div>
+               
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">
@@ -113,9 +109,9 @@ const Resume_item1 = () => {
                     BSE In CSE (2004 - 2008)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                {/* <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.70/5
-                </div>
+                </div> */}
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">
@@ -142,9 +138,9 @@ const Resume_item1 = () => {
                     Job at Rainbow-Themes (2008 - 2016)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                {/* <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   4.95/5
-                </div>
+                </div> */}
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">
@@ -170,9 +166,9 @@ const Resume_item1 = () => {
                     Works at Plugin Development (2016 - 2020)
                   </p>
                 </div>
-                <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
+                {/* <div className="text-[#ff014f] text-[16px] shadow-xl bg-[#27292b] px-3 py-1 rounded">
                   5.00/5
-                </div>
+                </div> */}
               </div>
               <hr className="border border-[#0d10134f]" />
               <p className="pt-5 text-lg">

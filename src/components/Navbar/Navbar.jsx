@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import "./navbar.css";
-
+import myPhoto from '/IMG_20221102_102309.jpg'
 import MobileMenuSidebar from "./MobileMenuSiderbar";
 import { FaBars } from "react-icons/fa";
 const Navbar = () => {
@@ -73,16 +73,16 @@ const Navbar = () => {
       >
         <div className="header-wrapper h-[100px] flex items-center py-0 px-[25px] md:px-[35px] xl:px-[84px]">
           <div className=" w-1/2 lg:w-2/12 ">
-            <div className=" flex items-center  gap-4  ">
-              <a href="#">
+            <div className=" flex items-center gap-4 ">
+              <a href="#" className=" inline-block">
                 <img
-                  src="https://cdn.pixabay.com/photo/2021/06/04/10/28/portrait-6309448_1280.jpg"
-                  className="w-[50px] h-[50px]  md:w-[70px] md:h-[70px] rounded-full sidebar-img border "
+                  src={myPhoto}
+                  className="w-[50px] h-[50px]  md:w-[70px] md:h-[70px] rounded-full sidebar-img border object-center object-cover "
                   alt="img"
                 />
               </a>
-              <h1 className=" select-none text-[#c4cfde] text-xl tracking-wider uppercase font-semibold">
-                Tommy
+              <h1 className=" inline-block select-none text-[#c4cfde] text-xl tracking-wider uppercase font-semibold">
+                Hendrick
               </h1>
             </div>
           </div>
@@ -123,20 +123,20 @@ const Navbar = () => {
               >
                 <span className=" nav-text">Resume</span>
               </a>
-              <a
+              {/* <a
                 href="#portfolio"
                 className={activeSection === "portfolio" ? "active" : ""}
                 onClick={(e) => handleNavClick(e, "portfolio")}
               >
                 <span className=" nav-text">Projects</span>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="#blog"
                 className={activeSection === "blog" ? "active" : ""}
                 onClick={(e) => handleNavClick(e, "blog")}
               >
                 <span className=" nav-text">Blog</span>
-              </a>
+              </a> */}
               <a
                 href="#contact"
                 className={activeSection === "contact" ? "active" : ""}

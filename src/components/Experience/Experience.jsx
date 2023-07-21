@@ -10,7 +10,7 @@ const Experience = () => {
           <div className="">
             <div className=" text-center">
               <span className=" text-[#f9004d] leading-1 mb-[10px] text-sm font-normal">
-                OVER 10 YEARS OF EXPERIENCE
+                2+ YEARS OF EXPERIENCE
               </span>
               <h2 className=" text-[#c4cfde] font-bold text-[60px]">
                 My Experience

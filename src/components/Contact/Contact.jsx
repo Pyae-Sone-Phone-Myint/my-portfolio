@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
               <div className="title-area">
                 <h4 className=" font-bold text-[#e4e6ea] text-3xl mb-2">
-                  David Geller
+                 Hein Htet Zaw
                 </h4>
                 <span className=" text-[#878e99] text-lg">
                   Junior Web Developer
@@ -46,18 +46,18 @@ const Contact = () => {
                   Phone:
                   <a
                     className="contact-link tracking-wide ml-1 text-[#e4e6ea] text-lg"
-                    href="tel:0123456789"
+                    href="tel:09259850840"
                   >
-                    +0123456789{" "}
+                    +09259850840{" "}
                   </a>
                 </p>
                 <p>
                   Email:
                   <a
                     className="contact-link tracking-wide ml-1 text-[#e4e6ea] text-lg"
-                    href="mailto:admin@example.com"
+                    href="mailto:hendrick@gmail.com"
                   >
-                    admin@exmaple.com{" "}
+                    hendrick@gmail.com{" "}
                   </a>
                 </p>
               </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { FiFacebook, FiLinkedin, FiInstagram } from "react-icons/fi";
 import "./navbar.css";
-
+import myPhoto from '/IMG_20221102_102309.jpg'
 const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
   return (
     <div className="mobile-menu-wrapper ">
@@ -17,12 +17,12 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
         <div className="mobile-menu-header  my-3">
           <div className=" flex items-center gap-4 ">
             <img
-              src="https://cdn.pixabay.com/photo/2021/06/04/10/28/portrait-6309448_1280.jpg"
-              className="w-[50px] h-[50px] rounded-full sidebar-img border "
+              src={myPhoto}
+              className="w-[50px] h-[50px] rounded-full sidebar-img border  object-cover"
               alt="img"
             />
-            <h1 className=" text-[#c4cfde] text-xl tracking-wider uppercase font-semibold">
-              Tommy
+            <h1 className=" text-[#c4cfde] text-xl tracking-wider uppercase font-semibold ">
+              Hendrick
             </h1>
           </div>
           {/* Close button */}
@@ -62,19 +62,19 @@ const MobileMenuSidebar = ({ toggleMenu, isMenuOpen, handleNavClick }) => {
               Resume
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#portfolio"
               onClick={(e) => handleNavClick(e, "portfolio")}
             >
               Projects
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="#blog" onClick={(e) => handleNavClick(e, "blog")}>
               Blog
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" onClick={(e) => handleNavClick(e, "contact")}>
               Contact

@@ -12,7 +12,7 @@ const Resume = () => {
         <div className=" flex justify-center flex-col items-center">
           <RevealUp>
           <div className="text-center pb-[40px]">
-              <span className=" contact-subtitle">  7+ YEARS OF EXPERIENCE</span>
+              <span className=" contact-subtitle">  2+ YEARS OF EXPERIENCE</span>
               <p className=" contact-title lg:text-[60px] md:text-[40px] text-[34px]">
             My Resume
               </p>
@@ -56,7 +56,7 @@ const Resume = () => {
                 >
                   Professional Skills
                 </button>
-                <button
+                {/* <button
                   className={`text-center py-4 lg:py-7 text-xl font-semibold hover:font-normal rounded-lg text-[#c4cfde] hover:shadow hover:shadow-gray-900 ${
                     btn == "experience"
                       ? "shadow-md text-[#ff014f] shadow-gray-900"
@@ -68,8 +68,8 @@ const Resume = () => {
                   value="experience"
                 >
                   Experience
-                </button>
-                <button
+                </button> */}
+                {/* <button
                   className={`text-center py-4 lg:py-7 text-xl font-semibold hover:font-normal rounded-lg text-[#c4cfde] hover:shadow hover:shadow-gray-900 ${
                     btn == "interview"
                       ? "shadow-md text-[#ff014f] shadow-gray-900"
@@ -81,7 +81,7 @@ const Resume = () => {
                   value="interview"
                 >
                   Interview
-                </button>
+                </button> */}
               </div>
             </RevealUp>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Resume"
+import "./Resume";
 
 const Resume_item2 = () => {
   return (
@@ -10,82 +10,7 @@ const Resume_item2 = () => {
             Features
           </div>
           <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
-            Design Skill
-          </div>
-          <div className=" skills">
-            <div className="skill mb-10">
-              <div className=" flex text-white justify-between mb-3">
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  PHOTOSHOT
-                </div>
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  100%
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "100%" }}></div>
-              </div>
-            </div>
-            <div className="skill mb-10">
-              <div className=" flex text-white justify-between mb-3">
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  FIGMA
-                </div>
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  95%
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "95%" }}></div>
-              </div>
-            </div>
-            <div className="skill mb-10">
-              <div className=" flex text-white justify-between mb-3">
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  ADOBE XD
-                </div>
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  60%
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "60%" }}></div>
-              </div>
-            </div>
-            <div className="skill mb-10">
-              <div className=" flex text-white justify-between mb-3">
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  ADOBE ILLUSTRATOR
-                </div>
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  70%
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "70%" }}></div>
-              </div>
-            </div>
-            <div className="skill mb-10">
-              <div className=" flex text-white justify-between mb-3">
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  DESIGN
-                </div>
-                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  90%
-                </div>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "90%" }}></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" w-full lg:w-[50%]">
-          <div className="text-[#ff014f] text-[17px] tracking-widest">
-            Features
-          </div>
-          <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
-            Development Skill
+            Frontend Development
           </div>
           <div className=" skills">
             <div className="skill mb-10">
@@ -130,7 +55,82 @@ const Resume_item2 = () => {
             <div className="skill mb-10">
               <div className=" flex text-white justify-between mb-3">
                 <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  SOFTWARE
+                  REACT
+                </div>
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  85%
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="skill-per" style={{ maxWidth: "85%" }}></div>
+              </div>
+            </div>
+            <div className="skill mb-10">
+              <div className=" flex text-white justify-between mb-3">
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  TAILWIND
+                </div>
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  70%
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="skill-per" style={{ maxWidth: "70%" }}></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" w-full lg:w-[50%]">
+          <div className="text-[#ff014f] text-[17px] tracking-widest">
+            Features
+          </div>
+          <div className=" text-[35px] mb-7 font-bold text-[#c4cfde]">
+            Backend Development
+          </div>
+          <div className=" skills">
+            <div className="skill mb-10">
+              <div className=" flex text-white justify-between mb-3">
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  PHP
+                </div>
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  65%
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="skill-per" style={{ maxWidth: "65%" }}></div>
+              </div>
+            </div>
+            <div className="skill mb-10">
+              <div className=" flex text-white justify-between mb-3">
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  LARAVEL
+                </div>
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  80%
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="skill-per" style={{ maxWidth: "80%" }}></div>
+              </div>
+            </div>
+            <div className="skill mb-10">
+              <div className=" flex text-white justify-between mb-3">
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  MYSQL
+                </div>
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  70%
+                </div>
+              </div>
+              <div className="skill-bar">
+                <div className="skill-per" style={{ maxWidth: "70%" }}></div>
+              </div>
+            </div>
+            <div className="skill mb-10">
+              <div className=" flex text-white justify-between mb-3">
+                <div className=" text-[13px] text-[#c4cfde] tracking-widest">
+                  GIT
                 </div>
                 <div className=" text-[13px] text-[#c4cfde] tracking-widest">
                   75%
@@ -143,14 +143,14 @@ const Resume_item2 = () => {
             <div className="skill mb-10">
               <div className=" flex text-white justify-between mb-3">
                 <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  PLUGIN
+                  PLUG IN
                 </div>
                 <div className=" text-[13px] text-[#c4cfde] tracking-widest">
-                  70%
+                  60%
                 </div>
               </div>
               <div className="skill-bar">
-                <div className="skill-per" style={{ maxWidth: "70%" }}></div>
+                <div className="skill-per" style={{ maxWidth: "60%" }}></div>
               </div>
             </div>
           </div>
